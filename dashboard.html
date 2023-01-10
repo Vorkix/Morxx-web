@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
+  <link rel="stylesheet" type="text/css" href="output.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <title>Dashboard</title>
+    <div class="headtextl">
+        <div class="welcum"><h1>Welcome to the dashboard,</h1></div>
+        <div class="headtext" >
+            <img src='' id="avatar" class="avatar"/>
+            <div class="name" id="name"></div>
+        </div>
+        <a href="index.html" class="logout">Logout</a>
+    </div>
+
+<script>
+  window.onload = () => {
+    const fragment = new URLSearchParams(window.location.hash.slice(1));
+    const [accessToken, tokenType] = [fragment.get('access_token'), fragment.get('token_type')];
+
+    if (!accessToken) {
+        window.location.href('/')
+    }
+
+    fetch('https://discord.com/api/users/@me', {
+    headers: {
+        authorization: `${tokenType} ${accessToken}`,
+    },
+    })
+    .then(result => result.json())
+    .then(response => {
+        console.log(response);
+        const { username, discriminator, avatar, id} = response;
+        //set the welcome username string
+        document.getElementById('name').innerText = ` ${username}#${discriminator}`;
+
+        //set the avatar image by constructing a url to access discord's cdn
+        document.getElementById("avatar").src = `https://cdn.discordapp.com/avatars/${id}/${avatar}.jpg`;
+    })
+    .catch(console.error);
+
+
+};
+</script>
+</body>
+</html>

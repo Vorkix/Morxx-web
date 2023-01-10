@@ -1,0 +1,48 @@
+*{background-image: url(header.png);
+background-position: top;
+background-repeat: no-repeat;
+
+
+}
+
+
+.avatar{
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.headtext{
+    flex: 0px;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+}
+
+.headtetxl{
+    flex: 10px; 
+    justify-content: center;
+    text-align: center;
+     align-content: center;
+}
+
+.welcum{
+    text-align: center;
+}
+
+.logout{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    
+}
+
+a{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}

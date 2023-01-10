@@ -1,0 +1,270 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #000000;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.text1dash{
+    text-align: center;
+    color: rgb(212, 0, 255);
+}
+
+.davatar{
+    width: 90px;
+}
+
+.text-2xl{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+.text-sm-mt-5{
+    text-align: center;
+    color: #1064DE;
+    align-items: center;
+    align-content: center;
+    
+}
+
+a{
+    text-align: center;
+    color: #1064DE;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #1064DE !important;
+     font-weight: bold !important;
+ }
+
+
+.digon{
+
+    
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+i{
+    color: #4500ff;
+}
+
+.avatar{
+    border-radius: 10px;
+}
+
+ .login-btn {
+     border: 2px solid #4500ff !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #1064DE !important;
+ }
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.IconImg{
+border-radius: 10px;}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #4500ff!important
+}
+.btn-secondary {
+    background-color: #000000 !important
+}
+.heading {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-image: url(secheader.png) !important;
+    background-position: center !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.features {
+    text-align: center !important;
+    background: #4902a1 !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.features .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.features .subtitle {
+    font-size: 20px !important;
+    color: #ffffff;
+}
+
+.features .card-body {
+    text-align: left !important;
+}
+
+.features .card-title {
+    margin: 0 0 -3px !important;
+}
+.cards {
+    margin-top: 30px !important;
+}
+
+.card {
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.card-title {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #0b054b!important;
+}
+
+.statistics {
+    text-align: center !important;
+    padding-top: 300px !important;
+}
+
+.statistics .card-body{
+    padding: 0 !important;
+    height: 280 !important;
+    width: 332 !important;
+    max-height: 280 !important;
+    max-width: 332 !important;
+}
+
+.statistics .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.statistics .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.card.statistic {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #f7f7f7 !important;
+}
+
+
+.page_end {
+    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.start {
+    padding: 60px 50px !important
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.features .card {
+    background: #000000;
+    border-radius: 22px !important;
+    border: 4px solid #ffffff;
+}
+.features .card-text {
+color: #fff !important
+}
+
+.features .card-bod\y {
+    padding: 40px 40px 40px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: #111358 !important
+}
+.footer {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    padding: 30px 30px !important
+}
+
+.footer .nouridio {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .nouridio a {
+    color: #1064DE !important;
+    text-decoration: none !important;
+}
+
+.footer .bot-footer {
+    border-radius: 10px;
+    text-align: center !important;
+    color: #ffffff !important
+}
+
+.footericon{
+    border-radius: 10px;
+}
+
+.page_end{
+    background-image: url("secheader.png");
+}
